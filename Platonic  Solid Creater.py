@@ -33,13 +33,6 @@ def CreatePolygon(*args):
 			CreateCube = cmds.polyCube( name = 'Cube' )
 # Creation Of Dodecahedron 		
 	elif Selection == "Dodecahedron":
-		
-		
-		
-		
-		
-		
-		
 		for i in range(value[0]):
 			CreateDodecahedron = cmds.polyPlatonicSolid( name='dodecahedron', st=0)
 # Creation Of CUBE Icosahedron			

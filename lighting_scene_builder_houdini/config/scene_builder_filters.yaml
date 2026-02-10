@@ -1,0 +1,27 @@
+allowed_step: light
+
+required_components:
+  - geo
+  - material
+  - rig
+
+allowed_publish_types:
+  geo: [bgeo, usd]
+  material: [usd, ass]
+  rig: [abc, usd]
+
+allowed_extensions:
+  bgeo: [".bgeo.sc", ".bgeo"]
+  usd: [".usd", ".usda", ".usdc"]
+  ass: [".ass"]
+  abc: [".abc"]
+
+variants:
+  quality: [low, medium, high]
+  lod: [lodA, lodB]
+
+default_variant:
+  quality: high
+  lod: lodA
+
+max_versions_per_component: 3
